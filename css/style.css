@@ -4,69 +4,92 @@
     font-family: Myriad-Pro;
     src: url('../fonts/Myriad-Pro_31655.ttf');
 }
+
 @font-face {
     font-family: Myriad-Pro-Bold;
     src: url('../fonts/Myriad-Pro-Bold_31631.ttf');
 }
-.bold{
+
+.bold {
     font-family: Myriad-Pro-Bold;
 }
-body{
+
+body {
     font-family: Myriad-Pro;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
-.header .mr-auto, .mx-auto {
+
+.header .mr-auto,
+.mx-auto {
     margin-left: auto !important;
     margin-right: 0 !important;
 }
-ul{
+
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-button,input,textarea{
+
+button,
+input,
+textarea {
     outline: none;
 }
-button:focus,input:focus,textarea:focus{
+
+button:focus,
+input:focus,
+textarea:focus {
     border: none;
 }
-section{
-     max-width: 1500px !important;
+
+section {
+    max-width: 1500px !important;
     width: auto;
     overflow: hidden;
     margin: 0 auto;
 }
+
 .container-fluid {
     padding-left: 70px;
     padding-right: 70px;
 }
+
 .fixed-top {
     background: #fff;
     height: 100px;
     padding: 13px 0 !important;
 }
-.fixed-top .main-logo{
-     width: 250px !important;
+
+.fixed-top .main-logo {
+    width: 250px !important;
 }
-.fixed-top .logo h1,.fixed-top .main-nav .text h5{
+
+.fixed-top .logo h1,
+.fixed-top .main-nav .text h5 {
     display: none !important;
 }
-.fixed-top .main-logo{
+
+.fixed-top .main-logo {
     margin-top: 0 !important;
 }
-.nav-pills .nav-link.active,.nav-pills .show > .nav-link{
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
     background: transparent !important;
     position: relative;
 }
-.fixed-top .nav-pills .nav-link::before {
+
+.fixed-top .nav-pills .nav-link.active::before {
     content: '';
     position: absolute;
     left: 50%;
     bottom: 5px;
-    width: 0%;
+    width: 55%;
     -ms-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -75,36 +98,32 @@ section{
     background: #639CC6;
     transition: .5s;
 }
-.fixed-top .nav-pills .nav-link.active::before{
-    content: '';
-    position: absolute;
-    width: 55%;
-}
+
 .fixed-top .main-nav li .nav-link {
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 
 
 /*end global section*/
 
-
-
-
 /*header section*/
 
-.header{
+.header {
     padding: 20px 0;
     border-top: 8px solid #3439A6;
     background: #fff;
+    box-shadow: 0px 0px 10px #dbd6d6;
 }
+
 .header .main-logo {
     margin-top: -45px;
-    width: 205px;
+    width: 245px;
     margin-right: 6px;
 }
+
 .header .logo h1 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     display: inline-block;
     margin: 0;
@@ -112,59 +131,65 @@ section{
     color: #E81B3A;
     text-transform: uppercase;
 }
+
 .header .logo h1 span {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: normal;
 }
 
 
-.main-nav{
+.main-nav {
     padding: 14px 0;
 }
-.main-nav .text{
+
+.main-nav .text {
     text-align: right;
     color: #E81B3A;
 }
-.main-nav .text h5{
+
+.main-nav .text h5 {
     font-size: 20.4px;
     margin-bottom: 0;
 }
+
 .main-nav #navbar-example2 {
     padding: 0px;
 }
+
 .main-nav li .nav-link {
     font-size: 20.28px;
     color: #096AB9 !important;
-    padding-left: 35px !important;
-    padding-right: 35px !important;
+    padding-left: 23px !important;
+    padding-right: 23px !important;
 }
-.main-nav .nav-item:last-child .nav-link{
+
+.main-nav .nav-item:last-child .nav-link {
     padding-right: 0 !important;
 }
 
 /*end header section*/
 
-
-
-
-
 /*slider section*/
 
-.slider .box1{
+.slider .box1 {
     background: url('../images/1.jpg');
     background-size: cover;
 }
-.slider .box2{
+
+.slider .box2 {
     background: url('../images/2.jpg');
     background-size: cover;
 }
+
 .slider .item {
     padding: 95px 0;
 }
+
 .slider .content {
     overflow: hidden;
     width: 80%;
 }
+
 .slider .content .text {
     display: inline-block;
     background: #fff;
@@ -174,9 +199,11 @@ section{
     position: relative;
     margin-top: 35px;
 }
-.slider .box2 .content .text{
+
+.slider .box2 .content .text {
     margin: 38px 0;
 }
+
 .slider .content .text::before {
     content: '';
     position: absolute;
@@ -186,15 +213,18 @@ section{
     left: 0;
     border: 2px solid #E51F37;
 }
+
 .slider h4 {
     color: #E51F37;
     font-size: 30px;
     line-height: 37px;
     margin-bottom: 5px;
 }
+
 .slider h4 span {
     color: #0560A3;
 }
+
 .slider .circle {
     display: inline-block;
     float: right;
@@ -206,17 +236,20 @@ section{
     overflow: hidden;
     color: #fff;
 }
+
 .slider .circle h3 {
     font-size: 26.37px;
     margin-bottom: 0;
     line-height: 37px;
     text-transform: uppercase;
 }
+
 .slider .circle h3 span {
     font-size: 64.11px;
     margin-bottom: -35px;
     display: block;
 }
+
 .slider .circle p {
     font-size: 17.65px;
     line-height: 22px;
@@ -226,11 +259,6 @@ section{
 
 /*end slider section*/
 
-
-
-
-
-
 /* coupons section*/
 
 #coupons {
@@ -238,11 +266,13 @@ section{
     padding: 40px 0;
     text-align: center;
 }
+
 #coupons h4 {
     color: #fff;
     font-size: 36px;
     text-transform: uppercase;
 }
+
 #coupons .box {
     background: #fff;
     border: 2px dashed #303030;
@@ -250,50 +280,68 @@ section{
     padding: 0px 23px;
     margin: 20px 0;
 }
-#coupons .box .heading{
+
+#coupons .box .heading {
     position: relative;
     display: inline-block;
 }
+
 #coupons .box h1 {
     color: #0560A3;
-    font-size: 86.01px;
+    font-size: 75.01px;
     position: relative;
+    margin-bottom: 0;
 }
+
 #coupons .box h1 .dollar-sign {
-    font-size: 56.23px;
+    font-size: 41.23px;
+    top: 15px;
+    position: absolute;
+    left: -22px;
 }
 #coupons .box h1 .small {
-    font-size: 24.99px;
+    font-size: 21.99px;
     position: absolute;
     right: -30px;
-    top: 25px;
+    top: 16px;
     text-decoration: underline;
 }
-#coupons .box h1 .small.off{
-    right: -36px;
+
+#coupons .box h1 .small.off {
+    right: -33px;
+    font-size: 20px;
 }
+
 #coupons .box h1 .small.our {
-    top: 53px !important;
-    right: -55px !important;
+    top: 38px !important;
+    right: -47px !important;
+    font-weight: normal;
+    font-size: 20px;
 }
+
 #coupons .box h5 {
     font-size: 26.24px;
     color: #0560A3;
-    margin: 10px 0;
+    margin: 5px 0;
     text-transform: uppercase;
     word-spacing: 6px;
+    margin-top: 0;
 }
+
 #coupons .box p {
     font-size: 12px;
     text-align: left;
     color: #0560A3;
     line-height: 16px;
     margin-bottom: 20px;
+    padding-left: 10px;
 }
+
 #coupons h2 {
     color: #E51F37;
     font-size: 30px;
 }
+
 #coupons h6 {
     color: #fff;
     font-size: 12px;
@@ -302,73 +350,81 @@ section{
 
 /* end coupons section*/
 
-
-
-
-
-
 /*banner section*/
 
 .banner {
-    padding: 15px 0;
+    padding: 6px 0;
     background: #E51F37;
     color: #fff;
 }
+
+.banner .text{
+    padding-top: 26px;
+}
+
 .banner h4 {
-    font-size: 30.36px;
-    margin: 30px 0;
+    font-size: 35.36px;
+    text-transform: uppercase;
 }
 .banner h1 {
-    font-size: 71.01px;
+    font-size: 75.01px;
     margin-bottom: 0;
     float: right;
 }
 
 /*end banner section*/
 
-
-
-
 /*services section*/
 
 .services {
     padding: 40px 0;
+    padding-bottom: 25px;
 }
+
 .services h4 {
     color: #E51F37;
     font-size: 30.01px;
 }
+
 .services h5 {
     color: #4F6063;
     font-size: 22px;
 }
+
 .services p {
-    font-size: 18px;
+    font-size: 20px;
     color: #4F6063;
+    word-spacing: 1px;
 }
-.services p:last-child{
+
+.services p:last-child {
     margin-bottom: 0;
 }
+
 .box.estimate {
-    width: 90%;
+    width: 77%;
     float: right;
     background: #303030;
-    padding: 25px 45px;
+    padding: 30px 40px;
     color: #fff;
 }
+
 .services h2 {
     text-transform: uppercase;
     text-align: center;
 }
+
 .services input {
     width: 100%;
     margin: 13px 0;
-    height: 65px;
+    height: 64px;
     padding: 0 20px;
     border: none;
     border-left: 4px solid #D41E1F;
     border-radius: 5px;
+    font-size: 18px;
 }
+
 .services textarea {
     width: 100%;
     margin: 13px 0;
@@ -381,19 +437,21 @@ section{
     border-left: 4px solid #D41E1F;
     border-radius: 5px;
     resize: none;
+    font-size: 18px;
 }
+
 .services button {
     display: inline-block;
     background: #D52625;
     color: #fff;
     border: none;
-    font-size: 28.68px;
-    border-radius: 15px;
+    font-size: 25.68px;
+    border-radius: 10px;
     padding: 10px 20px;
     font-weight: bold;
     cursor: pointer;
-    letter-spacing: -1px;
     margin-top: 15px;
+    outline: none;
 }
 
 
@@ -401,12 +459,15 @@ section{
 #request {
     padding: 20px 0;
 }
-#request .banner1{
+
+#request .banner1 {
     width: 100%;
 }
+
 #request .banner2 {
     float: right;
 }
+
 #request p {
     color: #4F6063;
     font-size: 11.96px;
@@ -416,38 +477,39 @@ section{
 
 /*end services section*/
 
-
-
-
-
 /*footer section*/
 
 #footer {
     overflow: visible;
     padding: 20px 0;
 }
+
 #footer h5 {
     color: #4F6063;
     font-size: 22px;
     margin-bottom: 15px;
 }
+
 #footer ul li a {
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 20.9px;
     display: block;
     margin: 5px 0;
 }
-#footer ul li:last-child a{
+
+#footer ul li:last-child a {
     margin-bottom: 0;
 }
+
 #footer .box.box2 {
-    margin-top: 50px;
-    padding-left: 17%;
+    margin-top: 0;
+    padding-left: 0;
 }
+
 #footer .box.box3 {
-    margin-top: -150px;
+    margin-top: -174px;
     float: right;
-    margin-right: 10%;
+    margin-right: 3%;
 }
 
 
@@ -455,19 +517,21 @@ section{
 .fbanner {
     background: #E51F37;
     color: #fff;
-    padding: 20px 70px;
+    padding: 4px 70px;
     margin: 20px 0;
 }
+
 .fbanner h4 {
-    font-size: 25.76px;
+    font-size: 29.76px;
     margin-bottom: 0;
     text-transform: uppercase;
-    margin-top: 22px;
+    margin-top: 18px;
 }
+
 .fbanner h1 {
     margin-bottom: 0;
     font-size: 57.48px;
-    float: right;
+    float: left;
 }
 
 
@@ -477,11 +541,3 @@ section{
 }
 
 /*end footer section*/
-
-
-
-
-
-
-
-
