@@ -7,7 +7,7 @@
             nav: false,
             dots: false,
             animateOut: 'fadeOut',
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 5000,
             smartSpeed: 2000,
             responsive: {
