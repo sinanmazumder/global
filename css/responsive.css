@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1288px) {
     .main-nav li .nav-link {
         font-size: 18px;
         padding-left: 22px !important;
@@ -20,7 +20,15 @@
 }
 
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1236px) {
+    .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     .header .main-logo {
         width: 180px;
     }
@@ -54,7 +62,7 @@
         width: 165px;
     }
     .main-nav li .nav-link {
-        font-size: 17px;
+        font-size: 15px;
         padding-left: 20px !important;
         padding-right: 20px !important;
     }

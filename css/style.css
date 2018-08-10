@@ -48,15 +48,20 @@ textarea:focus {
 }
 
 section {
-    max-width: 1500px !important;
+    max-width: 2400px !important;
     width: auto;
     overflow: hidden;
     margin: 0 auto;
 }
 
 .container-fluid {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .fixed-top {
@@ -123,7 +128,7 @@ section {
 }
 
 .header .logo h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     display: inline-block;
     margin: 0;
@@ -133,7 +138,7 @@ section {
 }
 
 .header .logo h1 span {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -159,8 +164,8 @@ section {
 .main-nav li .nav-link {
     font-size: 20.28px;
     color: #096AB9 !important;
-    padding-left: 23px !important;
-    padding-right: 23px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
 }
 
 .main-nav .nav-item:last-child .nav-link {
@@ -295,7 +300,7 @@ section {
 
 #coupons .box h1 .dollar-sign {
     font-size: 41.23px;
-    top: 15px;
+    top: 8px;
     position: absolute;
     left: -22px;
 }
@@ -308,23 +313,23 @@ section {
 }
 
 #coupons .box h1 .small.off {
-    right: -33px;
+    right: -40px;
     font-size: 20px;
 }
 
 #coupons .box h1 .small.our {
     top: 38px !important;
-    right: -47px !important;
+    right: -55px !important;
     font-weight: normal;
     font-size: 20px;
 }
 
 #coupons .box h5 {
-    font-size: 26.24px;
+    font-size: 25px;
     color: #0560A3;
     margin: 5px 0;
     text-transform: uppercase;
-    word-spacing: 6px;
+    word-spacing: 0px;
     margin-top: 0;
 }
 
@@ -363,7 +368,7 @@ section {
 }
 
 .banner h4 {
-    font-size: 35.36px;
+    font-size: 33.36px;
     text-transform: uppercase;
 }
 .banner h1 {
@@ -392,7 +397,7 @@ section {
 }
 
 .services p {
-    font-size: 20px;
+    font-size: 19px;
     color: #4F6063;
     word-spacing: 1px;
 }
@@ -428,7 +433,7 @@ section {
 .services textarea {
     width: 100%;
     margin: 13px 0;
-    height: 165px;
+    height: 125px;
     padding: 0 20px;
     border: none;
     border-left-color: currentcolor;
@@ -458,10 +463,11 @@ section {
 
 #request {
     padding: 20px 0;
+    padding-bottom: 5px;
 }
 
 #request .banner1 {
-    width: 100%;
+    width: auto;
 }
 
 #request .banner2 {
@@ -472,7 +478,7 @@ section {
     color: #4F6063;
     font-size: 11.96px;
     float: right;
-    margin-right: 2%;
+    margin-right: 11%;
 }
 
 /*end services section*/
@@ -492,9 +498,10 @@ section {
 
 #footer ul li a {
     text-decoration: underline;
-    font-size: 20.9px;
+    font-size: 20.2px;
     display: block;
-    margin: 5px 0;
+    margin: 1px 0;
+    line-height: 26px;
 }
 
 #footer ul li:last-child a {
@@ -507,7 +514,7 @@ section {
 }
 
 #footer .box.box3 {
-    margin-top: -174px;
+    margin-top: -120px;
     float: right;
     margin-right: 3%;
 }
@@ -526,6 +533,7 @@ section {
     margin-bottom: 0;
     text-transform: uppercase;
     margin-top: 18px;
+    margin-left: 25px;
 }
 
 .fbanner h1 {
